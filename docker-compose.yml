@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+        ros2_nano:
+                build: .
+                volumes:
+                        - /etc/udev/rules.d:/etc/udev/rules.d
+                        - /dev:/dev
+                        - /sys/class/gpio:/sys/class/gpio
+                        - /sys/devices:/sys/devices
+                        - /dev/gpiochip0:/dev/gpiochip0
+                        - /dev/gpiochip1:/dev/gpiochip1
+                privileged: true
+                container_name: ros2_nano
+                stdin_open: true
+                tty: true
