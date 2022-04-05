@@ -4,7 +4,7 @@ On Jetson Nano, run the following:
 
 1- Clone the repo.
 ```bash
-git clone git@github.com:yazeedalrubyli/ROS2-Jetson-Nano-GPIO-I2C.git
+git clone https://github.com/yazeedalrubyli/ROS2-Foxy-Jetson-Nano-GPIO-I2C-Enabled-Docker-Container.git
 ```
 
 2- Change directory to the cloned repo.
